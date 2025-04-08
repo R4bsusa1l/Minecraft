@@ -1,0 +1,14 @@
+com\grafando\viaVersionUpdater\Metrics$CustomChart.class
+com\grafando\viaVersionUpdater\CronScheduler.class
+com\grafando\viaVersionUpdater\Metrics$SimpleBarChart.class
+com\grafando\viaVersionUpdater\Metrics$SimplePie.class
+com\grafando\viaVersionUpdater\Metrics$AdvancedPie.class
+com\grafando\viaVersionUpdater\BuildYml.class
+com\grafando\viaVersionUpdater\Metrics$SingleLineChart.class
+com\grafando\viaVersionUpdater\Metrics$MultiLineChart.class
+com\grafando\viaVersionUpdater\ViaVersionUpdater.class
+com\grafando\viaVersionUpdater\Metrics$AdvancedBarChart.class
+com\grafando\viaVersionUpdater\Metrics.class
+com\grafando\viaVersionUpdater\UpdateVias.class
+com\grafando\viaVersionUpdater\ViaVersionUpdater$UpdateCommand.class
+com\grafando\viaVersionUpdater\Metrics$DrilldownPie.class

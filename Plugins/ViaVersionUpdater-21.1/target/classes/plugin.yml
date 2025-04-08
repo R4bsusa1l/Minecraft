@@ -1,0 +1,19 @@
+name: ViaVersionUpdater
+version: '1.21'
+main: com.grafando.viaVersionUpdater.ViaVersionUpdater
+api-version: '1.21'
+folia-supported: true
+authors:
+  - R4bsusa1l
+description: AutoViaUpdater is a Spigot/BungeeCord plugin that automates the updating of Vias like ViaVersion, ViaRewind, ViaBackwards, and ViaRewind-Legacy.
+commands:
+  updatevias:
+    description: Force update checker for all vias!
+    usage: /updatevias
+    permission: autoviaupdater.admin
+    default: op
+softdepend:
+  - ViaVersion
+  - ViaBackwards
+  - ViaRewind
+  - ViaRewind-Legacy-Support
