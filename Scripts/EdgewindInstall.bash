@@ -1,6 +1,6 @@
 #!/bin/bash
-USER='kyzide'
-MYSQL_PW='Nbiwe!12'
+USER='$SYS.USER'
+MYSQL_PW='$SYS.PW'
 DUMPFILE='Edgewind-20240923110942.sql.gz'
 
 apt-get update
