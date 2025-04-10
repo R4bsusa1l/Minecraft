@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # vars
-DB_USER="$USER"
-DB_PASSWORD="$PW"
+DB_USER='$SYS.USER'
+DB_PASSWORD='$SYS.PW'
 DB_NAME="Edgewind"
 BACKUP_DIR="/home/grafando/Edgewind/Backup"
 TIMESTAMP=$(date +"%Y%m%d%H%M%S")
