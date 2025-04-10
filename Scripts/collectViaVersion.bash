@@ -11,14 +11,6 @@ download_latest_jar() {
 	API_URL="https://ci.viaversion.com/job/ViaVersion/lastStableBuild/api/json?tree=artifacts%5BfileName%2CrelativePath%5D"
 	API_DATA=$(curl "$API_URL")
 
-	echo "--- CURL OUTPUT ---"
-	echo "$API_DATA"
-	echo "-------------------"
-
-	echo "--- API DATA PARSED BY JQ ---"
-	echo "$API_DATA" | jq
-	echo "-----------------------------"
-
 	LATEST_JAR_RELATIVE_PATH=$(echo "$API_DATA" | jq -r '.artifacts[0].relativePath') # Simplified jq
 
 	if [ -z "$LATEST_JAR_RELATIVE_PATH" ]; then
