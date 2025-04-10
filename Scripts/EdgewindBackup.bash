@@ -1,12 +1,11 @@
 #!/bin/bash
 
 # vars
-DB_USER="grafando"
-DB_PASSWORD="Nbiwe!12"
+DB_USER="$USER"
+DB_PASSWORD="$PW"
 DB_NAME="Edgewind"
 BACKUP_DIR="/home/grafando/Edgewind/Backup"
 TIMESTAMP=$(date +"%Y%m%d%H%M%S")
-SESSION_NAME="edgewind"
 
 # Stop the server via screen instance
 screen -S "$SESSION_NAME" -X stuff "stop$(printf '\r')"
