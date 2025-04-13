@@ -116,9 +116,9 @@ public class Transactions {
 
 
     public Transactions() {
-        this.password = "Nbiwe!12";
-        this.username = "grafando";
-        this.serverName = "jdbc:mysql://localhost:3306/Edgewind";
+        this.password = SYS.SQL_PW;
+        this.username = SYS.SQL_USER;
+        this.serverName = "jdbc:mysql://"+SYS.SQL_HOST+":"+SYS.SQL_PORT+"/"+SYS.SQL_DB;
         this.dbms = "mysql";
     }
 
