@@ -1,0 +1,18 @@
+name: Homes-1.21
+version: '1.0-SNAPSHOT'
+main: com.grafando.homes.Home
+api-version: '1.21'
+load: STARTUP
+commands:
+  home:
+    description: teleports a player to the home he set
+    usage: /<commands> argument
+  sethome:
+    description: sets a home that a player can then tp to
+    usage: /<commands> argument
+  gethomelist:
+    description: lists all UUID-relevant homes currently stored
+    usage: /<commands>
+  deletehome:
+    description: deletes a specific home
+    usage: /<commands> argument
