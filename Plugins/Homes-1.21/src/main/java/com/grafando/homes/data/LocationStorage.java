@@ -27,9 +27,9 @@ public class LocationStorage {
 
 
     public LocationStorage() {
-        password = "Nbiwe!12";
-        username = "grafando";
-        serverName = "jdbc:mysql://localhost:3306/Edgewind";
+        password = "";
+        username = "";
+        serverName = "";
         dbms = "mysql";
     }
 
